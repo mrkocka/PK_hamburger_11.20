@@ -1,0 +1,52 @@
+nav ul {
+    transform: translatey(-30rem);
+    background-color: #ff1616;
+    position: absolute;
+    width: 100vw;
+    top: 5.9rem;
+    left: 0;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.5rem;
+    display: flex;
+    z-index: -1;
+  }
+  
+  .active {
+    transform: translatey(0);
+    transition: transform 500ms ease-in-out;
+  }
+  
+  .menuButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ff1616;
+    background-color: ghostwhite;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  
+  .menuButton:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.712);
+  }
+  
+  .fa-solid {
+    font-size: 1.7rem;
+  }
+  
+  main div {
+    padding: 1rem;
+  }
+  
+  main h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  main p {
+    font-size: 1rem;
+  }
+  
